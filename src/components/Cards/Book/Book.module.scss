@@ -1,0 +1,29 @@
+.container {
+  margin-top: 20px;
+}
+
+.details,
+.caps,
+.info {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.status {
+  background-color: var(--secondary-color);
+  padding: 2px 10px;
+  border-radius: 100px;
+  font-weight: 600;
+  font-size: 13px;
+}
+.info {
+  justify-content: space-between;
+}
+.more {
+  color: var(--titles-color);
+  font-size: 25px;
+}
+.description {
+  font-size: 14px;
+  margin-top: 15px;
+}

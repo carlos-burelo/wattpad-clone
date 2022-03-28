@@ -1,0 +1,18 @@
+.card {
+  scroll-snap-align: center;
+  width: 350px;
+}
+.details {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.img {
+  background-color: var(--background-card);
+  border-radius: var(--radius);
+}
+.title {
+  font-size: 17px;
+}
+.description {
+  font-size: 15px;
+}

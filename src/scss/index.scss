@@ -1,0 +1,27 @@
+:root {
+  // main
+  --primary-color: #ef6c39;
+  --secondary-color: #7ac2be;
+  --success-color: #00b2b2;
+  --info-color: #d0b47c;
+  --premium-color: #d7cff3;
+  --premium-color-text: #555176;
+  // backgrounds
+  --background: #121212;
+  --background-card: #191919;
+  --background-card-light: #363636;
+  --background-button: #ffffff;
+  --background-button-hover: #888888;
+  --background-button-dark-hover: #474747;
+  --background-chip: #4d4d4d;
+  // texts
+  --titles-color: #ffffff;
+  --text-color: #8c8c8c;
+  --button-color: #000000;
+  --paragraph-color: #bababa;
+  --text-chip: #aaaaaa;
+  // prefs
+  --radius: 8px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import './theme.scss';

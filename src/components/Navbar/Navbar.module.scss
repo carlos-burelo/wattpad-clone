@@ -1,0 +1,36 @@
+.navbar {
+  border-top: 1px solid #383838;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding-bottom: 15px;
+  padding-top: 10px;
+  height: 45px;
+  background-color: var(--background);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+.link {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 27px;
+  color: var(--titles-color);
+  &.active {
+    color: var(--primary-color);
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -1px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 30%;
+      height: 3px;
+      border-radius: 30px;
+      background-color: var(--primary-color);
+    }
+  }
+}

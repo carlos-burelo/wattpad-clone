@@ -1,0 +1,11 @@
+.cover {
+  width: 120px;
+  flex-shrink: 0;
+  scroll-snap-align: center;
+}
+
+.img {
+  background-color: var(--background-card);
+  border-radius: var(--radius);
+  color: var(--titles-color);
+}

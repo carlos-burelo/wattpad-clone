@@ -1,0 +1,28 @@
+body {
+  background-color: var(--background);
+}
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--titles-color);
+}
+p,
+span {
+  color: var(--text-color);
+}
+
+.container {
+  padding: 0 10px;
+}
+.svg {
+  width: 1em;
+  height: 1em;
+  display: block;
+  fill: currentColor;
+}
