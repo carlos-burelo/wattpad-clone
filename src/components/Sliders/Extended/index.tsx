@@ -14,7 +14,7 @@ export interface ScrollSnapProps {
 export default function Extended({ title, children }: Props) {
   return (
     <div className={_.container}>
-      {title && <h1 className={_.title}>{title}</h1>}
+      {title && <h1 className='titleSection'>{title}</h1>}
       <div className={_.slider}>{children}</div>
     </div>
   )

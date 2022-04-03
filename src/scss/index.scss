@@ -10,6 +10,7 @@
   --background: #121212;
   --background-card: #191919;
   --background-card-light: #363636;
+  --background-chip-light: #36363665;
   --background-button: #ffffff;
   --background-button-hover: #888888;
   --background-button-dark-hover: #474747;
@@ -22,6 +23,7 @@
   --text-chip: #aaaaaa;
   // prefs
   --radius: 8px;
+  --t-fast: 200ms;
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 @import './theme.scss';

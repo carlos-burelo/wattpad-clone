@@ -1,0 +1,20 @@
+.search {
+  position: relative;
+  margin: 20px 0;
+}
+.icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--titles-color);
+}
+.input {
+  padding-left: 42px;
+  height: 45px;
+}

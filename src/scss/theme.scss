@@ -5,6 +5,10 @@ body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
+  -webkit-tap-highlight-color: transparent;
+  &::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 h1,
@@ -16,7 +20,19 @@ p,
 span {
   color: var(--text-color);
 }
-
+a {
+  text-decoration: none;
+  color: var(--titles-color);
+}
+input {
+  padding: 8px 10px;
+  background-color: var(--background-card);
+  border: solid 1px var(--background-card-light);
+  border-radius: var(--radius);
+  width: 100%;
+  outline: none;
+  color: var(--titles-color);
+}
 .container {
   padding: 0 10px;
 }
@@ -25,4 +41,8 @@ span {
   height: 1em;
   display: block;
   fill: currentColor;
+}
+.titleSection {
+  font-size: 20px;
+  padding: 20px 0;
 }

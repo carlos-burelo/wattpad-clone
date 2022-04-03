@@ -1,0 +1,17 @@
+@import 'utils';
+
+.category {
+  display: flex;
+  background-color: var(--background-chip-light);
+  border-radius: var(--radius);
+  padding: 20px;
+  transition: background-color var(--t-fast) ease-in-out;
+  &:hover,
+  &:focus {
+    background-color: var(--background-card-light);
+  }
+}
+.text {
+  max-width: 70%;
+  @include textWrap(1);
+}
