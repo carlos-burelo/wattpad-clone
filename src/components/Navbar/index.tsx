@@ -9,7 +9,7 @@ import {
 } from '../../constants/icons'
 import _ from './Navbar.module.scss'
 
-export default function Navbar({}: Props) {
+export default function Navbar() {
   return (
     <nav className={_.navbar}>
       <NavLink href='/' Icon={HomeIcon} />

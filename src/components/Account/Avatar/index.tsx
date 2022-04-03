@@ -9,6 +9,7 @@ export default function Avatar({}: Props) {
       width={30}
       height={30}
       className={_.avatar}
+      alt='Avatar'
       objectFit='cover'
     />
   )

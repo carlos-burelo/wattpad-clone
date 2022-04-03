@@ -6,6 +6,7 @@ export default function Cover({ item }: Props) {
     <article className={_.cover}>
       <Image
         src={item.image}
+        alt={item.title}
         width={100}
         height={160}
         priority={true}

@@ -1,4 +1,4 @@
-import type { GetStaticProps, NextPage } from 'next'
+import type { GetServerSideProps, NextPage } from 'next'
 import { useState } from 'react'
 import Book from '../components/Cards/Book'
 import CoverCard from '../components/Cards/Cover'
@@ -28,7 +28,7 @@ const Home: NextPage<Props> = ({ lastest, emision }) => {
 
 export default Home
 
-export const getStaticProps: GetStaticProps = async () => {
+export const getServerSideProps: GetServerSideProps = async () => {
   const lastestR = await fetch(`${url}/lastest`)
   const lastest = await lastestR.json()
   const emisionR = await fetch(`${url}/emision`)

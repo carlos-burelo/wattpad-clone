@@ -17,6 +17,7 @@ export default function Extended({ item }: Props) {
           src={item.image}
           layout='responsive'
           priority={true}
+          alt={item.title}
           objectFit='cover'
           height={200}
           width={400}
